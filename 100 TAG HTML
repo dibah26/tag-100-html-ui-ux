@@ -1,0 +1,156 @@
+html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengatur Jadwal Harian</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f8ff;">
+
+  <header style="background-color: #4682b4; color: white; padding: 20px; text-align: center;">
+    <h1 style="margin: 0;">Pengatur Jadwal Harian</h1>
+    <nav style="margin-top: 10px;">
+      <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px;">
+        <li><a href="#monday" style="color: white; text-decoration: none;">Senin</a></li>
+        <li><a href="#tuesday" style="color: white; text-decoration: none;">Selasa</a></li>
+        <li><a href="#wednesday" style="color: white; text-decoration: none;">Rabu</a></li>
+        <li><a href="#thursday" style="color: white; text-decoration: none;">Kamis</a></li>
+        <li><a href="#friday" style="color: white; text-decoration: none;">Jumat</a></li>
+        <li><a href="#saturday" style="color: white; text-decoration: none;">Sabtu</a></li>
+        <li><a href="#sunday" style="color: white; text-decoration: none;">Minggu</a></li>
+      </ul>
+    </nav>
+  </header><!DOCTYPE 
+
+  <main style="padding: 20px;">
+    <section style="margin-bottom: 30px;">
+      <h2 style="color: #2e8b57;">Gambaran Umum</h2>
+      <p style="font-size: 18px;">Kelola waktu Anda dengan membuat jadwal harian untuk aktivitas penting seperti pekerjaan, belajar, olahraga, dan istirahat.</p>
+      <figure style="text-align: center;">
+        <img src="https://via.placeholder.com/300x200" alt="Gambar Jadwal" style="border: 2px solid #ccc; margin-bottom: 10px;">
+        <figcaption style="font-style: italic;">Jadwal yang terencana membawa produktivitas maksimal.</figcaption>
+      </figure>
+    </section>
+
+    <section id="monday" style="margin-bottom: 30px;">
+      <h2 style="color: #6a5acd;">Senin</h2>
+      <article style="background-color: #e6e6fa; padding: 15px; border-radius: 8px;">
+        <h3 style="margin-top: 0;">Pagi</h3>
+        <ul style="margin-left: 20px;">
+          <li>Olahraga ringan</li>
+          <li>Menyusun to-do list</li>
+        </ul>
+        <h3>Siang</h3>
+        <ul style="margin-left: 20px;">
+          <li>Pekerjaan kantor</li>
+          <li>Meeting proyek A</li>
+        </ul>
+        <h3>Sore</h3>
+        <ul style="margin-left: 20px;">
+          <li>Review progres harian</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="tuesday" style="margin-bottom: 30px;">
+      <h2 style="color: #20b2aa;">Selasa</h2>
+      <article style="background-color: #f5fffa; padding: 15px; border-radius: 8px;">
+        <h3 style="margin-top: 0;">Pagi</h3>
+        <ul style="margin-left: 20px;">
+          <li>Meditasi 10 menit</li>
+          <li>Belajar skill baru</li>
+        </ul>
+        <h3>Siang</h3>
+        <ul style="margin-left: 20px;">
+          <li>Kerja proyek B</li>
+        </ul>
+        <h3>Sore</h3>
+        <ul style="margin-left: 20px;">
+          <li>Olahraga gym</li>
+        </ul>
+      </article>
+    </section>
+
+    <aside style="background-color: #fff8dc; padding: 20px; margin-bottom: 30px; border-left: 5px solid #ffa500;">
+      <h2 style="margin-top: 0;">Tips Produktivitas</h2>
+      <p>Gunakan teknik Pomodoro: kerja 25 menit, istirahat 5 menit untuk menjaga fokus Anda!</p>
+    </aside>
+
+    <section style="margin-bottom: 30px;">
+      <h2 style="color: #ff6347;">Inspirasi Video</h2>
+      <video controls width="320" style="border: 2px solid #ccc;">
+        <source src="sample-video.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+      </video>
+    </section>
+
+    <section style="margin-bottom: 30px;">
+      <h2 style="color: #9370db;">Podcast Waktu</h2>
+      <audio controls style="width: 100%; max-width: 400px;">
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung audio.
+      </audio>
+    </section>
+
+    <section style="margin-bottom: 30px;">
+      <h2 style="color: #4682b4;">Manfaat Jadwal Harian</h2>
+      <details style="background-color: #e0ffff; padding: 10px; border-radius: 5px;">
+        <summary style="cursor: pointer;">Kenapa mengatur jadwal penting?</summary>
+        <p>Mengelola waktu dengan baik meningkatkan produktivitas, mengurangi stres, dan membantu mencapai tujuan lebih cepat.</p>
+      </details>
+    </section>
+
+    <section style="margin-bottom: 30px;">
+      <h2 style="color: #ff69b4;">Contoh Jadwal</h2>
+      <table border="1" style="width: 100%; border-collapse: collapse;">
+        <thead style="background-color: #ffe4e1;">
+          <tr>
+            <th style="padding: 10px;">Waktu</th>
+            <th style="padding: 10px;">Kegiatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px;">06:00 - 07:00</td>
+            <td style="padding: 10px;">Olahraga</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;">08:00 - 12:00</td>
+            <td style="padding: 10px;">Pekerjaan Kantor</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="feedback" style="margin-bottom: 30px;">
+      <h2 style="color: #3cb371;">Masukan</h2>
+      <form style="display: flex; flex-direction: column; gap: 10px;">
+        <fieldset style="border: 2px solid #8fbc8f; padding: 15px;">
+          <legend>Formulir Masukan</legend>
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" style="padding: 8px;">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" style="padding: 8px;">
+          <label for="comments">Komentar:</label>
+          <textarea id="comments" name="comments" rows="4" cols="50" style="padding: 8px;"></textarea>
+          <button type="submit" style="padding: 10px; background-color: #32cd32; color: white; border: none;">Kirim</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <address style="text-align: center; margin-top: 40px;">
+      Hubungi kami di: Jalan Waktu No.123, Jakarta.<br>
+      Email: info@pengaturjadwal.id
+    </address>
+  </main>
+
+  <footer style="background-color: #4682b4; color: white; text-align: center; padding: 15px; margin-top: 20px;">
+    <p style="margin: 0;">&copy; 2025 Pengatur Jadwal. Semua hak cipta dilindungi.</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
